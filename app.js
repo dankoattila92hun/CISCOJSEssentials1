@@ -21,3 +21,23 @@ function flowerMultiple () {
 }
 
 flowerMultiple();
+
+
+/*let firstName = "Maxwell Wright";
+let secondName = "Raja Villarreal";
+let thirdName = "Helen Richards";
+let firstPhone = "(0191) 719 6495";
+let secondPhone = "0866 398 2895";
+let thirdPhone = "0800 1111";
+let firstEmail = "Curabitur.egestas.nunc@nonummyac.co.uk";
+let secondEmail = "	posuere.vulputate@sed.com";
+let thirdEmail = "	libero@convallis.edu";*/
+
+function personalDatas(firstName, firstPhone, firstEmail) {
+    let datas = firstName + " " + firstPhone + " " + firstEmail;
+    console.log(datas);
+    /*datas = thirdName + " " + thirdPhone + " " + thirdEmail;
+    console.log(datas);*/
+}
+
+personalDatas("Maxwell Wright", "(0191) 719 6495", "Curabitur.egestas.nunc@nonummyac.co.uk");
